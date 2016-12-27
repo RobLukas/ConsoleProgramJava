@@ -5,7 +5,7 @@ This repository is for students of the Object-Oriented Programming Languages III
 ## Basic project rules
 
 * Each student need to create a Java application using Java SE programming language.
-* Projects can be submitted till January ???, 11:59:59 PM (BitBucket server time). All contributions made after deadline will result in failing project (hence failing course).
+* Projects need to be submitted till January 22, 11:59:59 PM (BitBucket server time). All contributions made after deadline will result in failing project (hence failing course).
 * Submitting project before deadline is required to be admitted to oral exam.
 * Not submitting project before deadline will result in failing laboratories (hence failing course).
 * Subject (what the application actually does) it totally up to student. If for any reason student has a problem with choosing application subject, he or she can ask for assistance project verificators.
