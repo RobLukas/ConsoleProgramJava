@@ -22,19 +22,15 @@ public abstract class Worker extends Employee implements IToolUser{
 
     @Override
     public void getDescription() {
-
         System.out.println("Worker" + getId());
         System.out.println("Name: " + getName());
         System.out.println("Salary: " + getSalary());
         System.out.println("Is working: " + getIsWorking());
         System.out.println("ID: " + getId());
-        Work();
         System.out.println();
     }
-
     public int getId(){
         return id;
     }
-
-    public abstract void Work();
+    public abstract void work(Animal animal);
 }

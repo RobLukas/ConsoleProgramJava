@@ -5,5 +5,5 @@ package com.robert.lukasik;
  */
 public interface IToolUser {
     int getId();
-    void Work();
+    void work(Animal animal);
 }

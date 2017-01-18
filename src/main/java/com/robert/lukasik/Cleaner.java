@@ -16,8 +16,27 @@ public class Cleaner extends Worker {
     }
 
     @Override
-    public void Work() {
-        System.out.print("Cleaner: ");
-        Tool.Use();
+    public void work(Animal animal) {
+        if (getIsWorking()) {
+            System.out.print("Cleaner " + getName() + ": ");
+            Tool.Use();
+            clean(animal);
+            System.out.println();
+        }
+        else {
+            System.out.println("Manager must set isWorking the true so that I could work!");
+            System.out.println();
+        }
+    }
+
+    public void clean(Animal animal) {
+        if (!animal.getClear()) {
+            animal.setClear(true);
+            System.out.println("And I cleaned the place for the animal number " + animal.getNumber() + " !");
+            System.out.println();
+        } else {
+            System.out.println("Animal number " + animal.getNumber() + " has clean place!");
+            System.out.println();
+        }
     }
 }

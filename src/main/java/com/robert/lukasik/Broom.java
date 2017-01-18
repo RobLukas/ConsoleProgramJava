@@ -6,6 +6,6 @@ package com.robert.lukasik;
 public class Broom extends Tool {
     @Override
     public String getToolName(){
-        return "broom to clean up.";
+        return "a broom to clean up.";
     }
 }

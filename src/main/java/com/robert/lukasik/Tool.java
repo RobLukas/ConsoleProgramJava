@@ -7,7 +7,7 @@ public abstract class Tool {
     private String toolName;
 
     public void Use(){
-        System.out.println("Use a " + getToolName());
+        System.out.println("I used " + getToolName());
     }
 
     abstract String getToolName();

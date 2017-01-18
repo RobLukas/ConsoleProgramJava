@@ -6,6 +6,6 @@ package com.robert.lukasik;
 public class Bucket extends Tool {
     @Override
     public String getToolName(){
-        return "bucket with food to feed animals.";
+        return "a bucket of food to fed the animal.";
     }
 }
