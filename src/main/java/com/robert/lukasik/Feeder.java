@@ -4,7 +4,7 @@ package com.robert.lukasik;
  * Created by Robert Łukasik on 16.01.2017.
  */
 public class Feeder extends Worker {
-    public Feeder(String name, double salary, boolean isWorking){
+    public Feeder(String name, double salary, boolean isWorking) throws InterruptedException {
         super(name, salary, isWorking);
         Tool = new Bucket();
     }

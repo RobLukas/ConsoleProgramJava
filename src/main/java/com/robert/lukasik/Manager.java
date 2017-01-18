@@ -5,7 +5,13 @@ package com.robert.lukasik;
  */
 public class Manager extends Employee implements ISupervisor {
 
-    public Manager(String name, double salary, boolean isWorking){
+    public Manager() throws InterruptedException {
+        if (getIsWorking() == false);{
+            setWorking(true);
+        }
+    }
+
+    public Manager(String name, double salary, boolean isWorking) throws InterruptedException {
         super(name, salary, isWorking);
     }
 

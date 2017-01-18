@@ -15,13 +15,13 @@ public class Animal {
         nextNumber++;
     }
 
-    public Animal() {
+    public Animal() throws InterruptedException {
         number = getNumber();
         this.name = "animal";
         this.clear = false;
         this.hungry = false;
     }
-    public Animal(String name, boolean clear, boolean hungry) {
+    public Animal(String name, boolean clear, boolean hungry) throws InterruptedException{
         number = getNumber();
         this.name = name;
         this.clear = clear;
@@ -29,8 +29,8 @@ public class Animal {
     }
 
     public void getDescription(){
-        System.out.println("Name of the animal: " + name);
-        System.out.println("Number of the animal: " + number);
+        System.out.println("Name of the animal: " + name + number);
+        //System.out.println("Number of the animal: " + number);
         System.out.println("Animal has a clean place: " + clear);
         System.out.println("Animal is hungry: " + hungry);
         System.out.println();

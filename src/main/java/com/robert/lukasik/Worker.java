@@ -3,7 +3,7 @@ package com.robert.lukasik;
 /**
  * Created by Robert Łukasik on 15.01.2017.
  */
-public abstract class Worker extends Employee implements IToolUser{
+public abstract class Worker extends Employee implements IToolUser {
     private static int nextId = 1;
     private int id;
     protected Tool Tool;
@@ -13,10 +13,10 @@ public abstract class Worker extends Employee implements IToolUser{
         nextId++;
     }
 
-    public Worker(){
+    public Worker() throws InterruptedException{
     }
 
-    public Worker(String name, double salary, boolean isWorking){
+    public Worker(String name, double salary, boolean isWorking) throws InterruptedException{
         super(name, salary, isWorking);
     }
 

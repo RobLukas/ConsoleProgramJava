@@ -8,13 +8,13 @@ public abstract class Employee {
     private double salary;
     private boolean isWorking;
 
-    public Employee() {
+    public Employee() throws InterruptedException {
         name = "Default";
         salary = 0.0;
         isWorking = false;
     }
 
-    public Employee(String firstName, double salary, boolean isWorking) {
+    public Employee(String firstName, double salary, boolean isWorking) throws InterruptedException {
         this.name = firstName;
         this.salary = salary;
         this.isWorking = isWorking;
