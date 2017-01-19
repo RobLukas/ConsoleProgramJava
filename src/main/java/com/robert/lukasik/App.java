@@ -40,7 +40,8 @@ public class App
 
         for (Worker w : workers) {
             manager1.giveJob(w);
-            System.out.println("Manager gave workers job!");
+            System.out.println();
+            System.out.println("Manager gave him job!");
             System.out.println();
             w.getDescription();
         }

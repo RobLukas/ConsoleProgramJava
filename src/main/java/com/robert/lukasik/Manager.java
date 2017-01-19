@@ -29,9 +29,7 @@ public class Manager extends Employee implements ISupervisor {
     @Override
     public void getDescription() {
         System.out.println("Manager");
-        System.out.println("Name: " + getName());
-        System.out.println("Salary: " + getSalary());
-        System.out.println("Is working: " + getIsWorking());
+        super.getDescription();
         System.out.println();
     }
 }

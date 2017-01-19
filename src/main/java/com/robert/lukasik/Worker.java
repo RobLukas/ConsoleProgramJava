@@ -23,9 +23,7 @@ public abstract class Worker extends Employee implements IToolUser {
     @Override
     public void getDescription() {
         System.out.println("Worker" + getId());
-        System.out.println("Name: " + getName());
-        System.out.println("Salary: " + getSalary());
-        System.out.println("Is working: " + getIsWorking());
+        super.getDescription();
         System.out.println("ID: " + getId());
         System.out.println();
     }

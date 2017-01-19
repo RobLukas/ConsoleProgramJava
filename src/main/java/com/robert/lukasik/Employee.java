@@ -3,7 +3,7 @@ package com.robert.lukasik;
 /**
  * Created by Robert Łukasik on 15.01.2017.
  */
-public abstract class Employee {
+public class Employee {
     private String name;
     private double salary;
     private boolean isWorking;
@@ -20,7 +20,11 @@ public abstract class Employee {
         this.isWorking = isWorking;
     }
 
-    public abstract void getDescription();
+    public void getDescription(){
+        System.out.println("Name: " + getName());
+        System.out.println("Salary: " + getSalary());
+        System.out.println("Is working: " + getIsWorking());
+    }
 
     public double getSalary() {
         return salary;
