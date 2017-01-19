@@ -7,7 +7,7 @@ public class App
     public static void main( String[] args ) {
         Set<Worker> workersSet = new HashSet<Worker>();
         Set<Animal> animalSet = new HashSet<Animal>();
-        Map<Worker, Animal> workerAnimalMap = new HashMap<Worker, Animal>();
+        Map<String, Double> workerMap = new HashMap<String, Double>();
 
         Manager manager1 = null;
         Worker[] workers = new Worker[2];
@@ -64,15 +64,13 @@ public class App
             e.printStackTrace(System.out);
         }
 
-
         System.out.println("Great job! Manager gave them raise!");
+
         for (Worker w : workers) {
             manager1.raiseSalary(w, 100);
+            workerMap.put(w.getName(), w.getSalary());
             System.out.println(w.getName());
-            System.out.println("New salary: " + w.getSalary());
+            System.out.println("New salary: " + workerMap.get(w.getName()));
         }
-
-        workerAnimalMap.put(workers[0], animals[1]);
-        System.out.println(workerAnimalMap.get(workers[0].getName()));
     }
 }
