@@ -21,6 +21,11 @@ public abstract class Worker extends Employee implements IToolUser {
     }
 
     @Override
+    public String toString() {
+        return super.toString();
+    }
+
+    @Override
     public void getDescription() {
         System.out.println("Worker" + getId());
         super.getDescription();

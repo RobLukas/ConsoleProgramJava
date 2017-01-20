@@ -26,6 +26,11 @@ public class Employee {
         System.out.println("Is working: " + getIsWorking());
     }
 
+    @Override
+    public String toString() {
+        return "Name: " + name + " " + "Salary: " + salary + " " + "IsWorking: " + isWorking;
+    }
+
     public double getSalary() {
         return salary;
     }
