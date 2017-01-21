@@ -9,5 +9,4 @@ My application shows the workers and animals. Workers can clean and feed animals
 
 #How to compile# 
 Use command:
-1. mvn package
-2. mvn compile
+java -cp target/app-ojp-1.0-SNAPSHOT.jar com.robert.lukasik.App
