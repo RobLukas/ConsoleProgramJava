@@ -28,7 +28,7 @@ public class Employee {
 
     @Override
     public String toString() {
-        return "Name: " + name + " " + "Salary: " + salary + " " + "IsWorking: " + isWorking;
+        return "Name: " + name + "\nSalary: " + salary + "\nIsWorking: " + isWorking;
     }
 
     public double getSalary() {

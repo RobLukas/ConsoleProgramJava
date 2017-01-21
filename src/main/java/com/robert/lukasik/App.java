@@ -8,12 +8,13 @@ public class App
         Set<Worker> workersSet = new HashSet<Worker>();
         Set<Animal> animalSet = new HashSet<Animal>();
         Map<String, Double> workerMap = new HashMap<String, Double>();
+        Map<Employee, Integer> EmployeeMap = new HashMap<Employee, Integer>();
 
         Manager manager1 = null;
         Worker[] workers = new Worker[2];
         Animal[] animals = new Animal[5];
         try {
-            manager1 = new Manager("Mr Manager", 5000, true);
+            manager1 = new Manager("Mr Manager", 5000);
             workers[0] = new Feeder("Mr Feeder", 1000, false);
             workers[1] = new Cleaner("Mr Cleaner", 1000, false);
         }catch (InterruptedException e) {
@@ -30,21 +31,28 @@ public class App
             for (Animal a : animals) {
                 animalSet.add(a);
             }
+            for (int i = 0; i< 2; i ++){
+                EmployeeMap.put(manager1, 1);
+                EmployeeMap.put(workers[i], (i+1));
+            }
         }catch (Exception e){
             System.err.println("IndexOutOfBoundsException");
             e.printStackTrace(System.out);
         }
 
-        System.out.println("We have " + workersSet.size() + " workers");
-        System.out.println("We have " + animalSet.size() + " animals");
+        System.out.println("You are Manager");
+        System.out.println("You have " + workersSet.size() + " workers and " + animalSet.size() + " animals");
 
         for (Worker w : workers) {
             manager1.giveJob(w);
             System.out.println();
-            System.out.println("Manager gave him job!");
-            System.out.println();
-            w.getDescription();
         }
+
+        for (Map.Entry<Employee, Integer> entry: EmployeeMap.entrySet()) {
+            System.out.println();
+            System.out.println("Number: " + entry.getValue() + " " + entry.getKey());
+        }
+
         System.out.println("___________________________");
         System.out.println("My animals");
         for (Animal a : animals) {

@@ -11,8 +11,8 @@ public class Manager extends Employee implements ISupervisor {
         }
     }
 
-    public Manager(String name, double salary, boolean isWorking) throws InterruptedException {
-        super(name, salary, isWorking);
+    public Manager(String name, double salary) throws InterruptedException {
+        super(name, salary, true);
     }
 
     public void raiseSalary(Employee worker, double raise){
@@ -20,6 +20,11 @@ public class Manager extends Employee implements ISupervisor {
         r = worker.getSalary();
         r += raise;
         worker.setSalary(r);
+    }
+
+    @Override
+    public String toString() {
+        return "\nManager\n" + super.toString();
     }
 
     public void giveJob(Employee worker) {

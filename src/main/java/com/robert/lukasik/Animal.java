@@ -28,6 +28,11 @@ public class Animal {
         this.hungry = hungry;
     }
 
+    @Override
+    public String toString() {
+        return "\nName of the animal: " + name + number + "\nAnimal has a clean place: " + clear + "\nAnimal is hungry: " + hungry;
+    }
+
     public void getDescription(){
         System.out.println("Name of the animal: " + name + number);
         //System.out.println("Number of the animal: " + number);

@@ -7,7 +7,6 @@ public abstract class Worker extends Employee implements IToolUser {
     private static int nextId = 1;
     private int id;
     protected Tool Tool;
-
     {
      id = nextId;
         nextId++;
@@ -22,7 +21,7 @@ public abstract class Worker extends Employee implements IToolUser {
 
     @Override
     public String toString() {
-        return super.toString();
+        return "\nWorker" + super.toString() + "\nID: " + getId();
     }
 
     @Override

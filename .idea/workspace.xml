@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="db9287ac-0c85-4df9-927d-cd36a4ef4456" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/robert/lukasik/App.class" afterPath="$PROJECT_DIR$/target/classes/com/robert/lukasik/App.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/robert/lukasik/Employee.class" afterPath="$PROJECT_DIR$/target/classes/com/robert/lukasik/Employee.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/robert/lukasik/Worker.class" afterPath="$PROJECT_DIR$/target/classes/com/robert/lukasik/Worker.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/oopl-iii-project-2016.iml" afterPath="$PROJECT_DIR$/oopl-iii-project-2016.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/robert/lukasik/Animal.java" afterPath="$PROJECT_DIR$/src/main/java/com/robert/lukasik/Animal.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/robert/lukasik/App.java" afterPath="$PROJECT_DIR$/src/main/java/com/robert/lukasik/App.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/robert/lukasik/Employee.java" afterPath="$PROJECT_DIR$/src/main/java/com/robert/lukasik/Employee.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/robert/lukasik/Manager.java" afterPath="$PROJECT_DIR$/src/main/java/com/robert/lukasik/Manager.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/robert/lukasik/Worker.java" afterPath="$PROJECT_DIR$/src/main/java/com/robert/lukasik/Worker.java" />
     </list>
     <ignored path="oopl-iii-project-2016.iws" />
@@ -30,16 +28,17 @@
     <favorites_list name="oopl-iii-project-2016" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.46005508">
+    <splitter split-orientation="horizontal" split-proportion="0.42515337">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="App.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/java/com/robert/lukasik/App.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="238">
-                  <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+                <state relative-caret-position="187">
+                  <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
                   <folding>
-                    <element signature="e#278#294#0" expanded="true" />
+                    <element signature="e#215#223#0" expanded="true" />
+                    <element signature="e#354#373#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -60,10 +59,7 @@
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="170">
                   <caret line="12" column="34" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
-                  <folding>
-                    <element signature="e#161#162#0" expanded="true" />
-                    <element signature="e#222#223#0" expanded="true" />
-                  </folding>
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -81,8 +77,8 @@
           <file leaf-file-name="Animal.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/java/com/robert/lukasik/Animal.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="289">
-                  <caret line="17" column="47" selection-start-line="17" selection-start-column="47" selection-end-line="17" selection-end-column="47" />
+                <state relative-caret-position="472">
+                  <caret line="33" column="5" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
                   <folding />
                 </state>
               </provider>
@@ -92,14 +88,14 @@
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="Employee.java" pinned="false" current-in-tab="false">
+          <file leaf-file-name="Employee.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/java/com/robert/lukasik/Employee.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="527">
-                  <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+                <state relative-caret-position="510">
+                  <caret line="30" column="16" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="16" />
                   <folding>
                     <element signature="e#778#779#0" expanded="true" />
-                    <element signature="e#878#879#0" expanded="true" />
+                    <element signature="e#870#871#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -108,22 +104,25 @@
           <file leaf-file-name="Worker.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/java/com/robert/lukasik/Worker.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="408">
-                  <caret line="24" column="32" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
+                <state relative-caret-position="276">
+                  <caret line="23" column="50" selection-start-line="23" selection-start-column="50" selection-end-line="23" selection-end-column="50" />
                   <folding>
-                    <element signature="e#520#521#0" expanded="true" />
-                    <element signature="e#559#560#0" expanded="true" />
+                    <element signature="e#519#520#0" expanded="true" />
+                    <element signature="e#592#593#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="Manager.java" pinned="false" current-in-tab="true">
+          <file leaf-file-name="Manager.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/java/com/robert/lukasik/Manager.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="187">
-                  <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
-                  <folding />
+                <state relative-caret-position="442">
+                  <caret line="26" column="18" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
+                  <folding>
+                    <element signature="e#610#611#0" expanded="true" />
+                    <element signature="e#665#666#0" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -131,7 +130,7 @@
           <file leaf-file-name="Broom.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/java/com/robert/lukasik/Broom.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="119">
+                <state relative-caret-position="136">
                   <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
                   <folding>
                     <element signature="e#160#161#0" expanded="true" />
@@ -146,10 +145,7 @@
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="119">
                   <caret line="8" column="51" selection-start-line="8" selection-start-column="51" selection-end-line="8" selection-end-column="51" />
-                  <folding>
-                    <element signature="e#161#162#0" expanded="true" />
-                    <element signature="e#221#222#0" expanded="true" />
-                  </folding>
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -184,11 +180,11 @@
         <option value="$PROJECT_DIR$/src/main/java/com/robert/lukasik/Bucket.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/robert/lukasik/Cleaner.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/robert/lukasik/Feeder.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/robert/lukasik/Animal.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/robert/lukasik/Tool.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/robert/lukasik/Manager.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/robert/lukasik/Worker.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/robert/lukasik/Manager.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/robert/lukasik/Employee.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/robert/lukasik/Animal.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/robert/lukasik/App.java" />
       </list>
     </option>
@@ -232,7 +228,6 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -314,6 +309,7 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -322,7 +318,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../wspolbiezne" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunManager" selected="Application.App">
     <configuration default="false" name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -627,8 +623,8 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297062" sideWeight="0.50208986" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25158563" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16807611" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16757345" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -636,8 +632,8 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39957717" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39957717" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -685,7 +681,15 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="11" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/robert/lukasik/App.java</url>
+          <line>16</line>
+          <properties />
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="12" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -707,7 +711,8 @@
         <state relative-caret-position="220">
           <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
           <folding>
-            <element signature="e#278#294#0" expanded="true" />
+            <element signature="e#215#223#0" expanded="true" />
+            <element signature="e#354#373#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -724,7 +729,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
           <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
-          <folding />
+          <folding>
+            <element signature="e#610#611#0" expanded="true" />
+            <element signature="e#665#666#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -734,7 +742,7 @@
           <caret line="10" column="49" selection-start-line="10" selection-start-column="49" selection-end-line="10" selection-end-column="49" />
           <folding>
             <element signature="e#778#779#0" expanded="true" />
-            <element signature="e#878#879#0" expanded="true" />
+            <element signature="e#870#871#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -744,8 +752,8 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#520#521#0" expanded="true" />
-            <element signature="e#559#560#0" expanded="true" />
+            <element signature="e#519#520#0" expanded="true" />
+            <element signature="e#592#593#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -771,7 +779,8 @@
         <state relative-caret-position="221">
           <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
           <folding>
-            <element signature="e#278#294#0" expanded="true" />
+            <element signature="e#215#223#0" expanded="true" />
+            <element signature="e#354#373#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -788,7 +797,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
-          <folding />
+          <folding>
+            <element signature="e#610#611#0" expanded="true" />
+            <element signature="e#665#666#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -797,8 +809,8 @@
         <state relative-caret-position="374">
           <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
           <folding>
-            <element signature="e#520#521#0" expanded="true" />
-            <element signature="e#559#560#0" expanded="true" />
+            <element signature="e#519#520#0" expanded="true" />
+            <element signature="e#592#593#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -807,10 +819,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
-          <folding>
-            <element signature="e#161#162#0" expanded="true" />
-            <element signature="e#222#223#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -835,7 +844,8 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#278#294#0" expanded="true" />
+            <element signature="e#215#223#0" expanded="true" />
+            <element signature="e#354#373#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -844,7 +854,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
-          <folding />
+          <folding>
+            <element signature="e#610#611#0" expanded="true" />
+            <element signature="e#665#666#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -869,7 +882,8 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#278#294#0" expanded="true" />
+            <element signature="e#215#223#0" expanded="true" />
+            <element signature="e#354#373#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -880,7 +894,7 @@
           <caret line="3" column="34" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
           <folding>
             <element signature="e#778#779#0" expanded="true" />
-            <element signature="e#878#879#0" expanded="true" />
+            <element signature="e#870#871#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -889,7 +903,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#610#611#0" expanded="true" />
+            <element signature="e#665#666#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -898,8 +915,8 @@
         <state relative-caret-position="238">
           <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding>
-            <element signature="e#520#521#0" expanded="true" />
-            <element signature="e#559#560#0" expanded="true" />
+            <element signature="e#519#520#0" expanded="true" />
+            <element signature="e#592#593#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -917,7 +934,8 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#278#294#0" expanded="true" />
+            <element signature="e#215#223#0" expanded="true" />
+            <element signature="e#354#373#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -972,73 +990,10 @@
     <entry file="file://$USER_HOME$/AppData/Local/Temp/Temp1_solutions-20170118.zip/TestMyLinkedList.java" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_112/src.zip!/java/util/TreeMap.java" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_112/src.zip!/java/util/TreeSet.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/robert/lukasik/Animal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="47" selection-start-line="17" selection-start-column="47" selection-end-line="17" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/robert/lukasik/Tool.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="12" column="34" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
-          <folding>
-            <element signature="e#161#162#0" expanded="true" />
-            <element signature="e#222#223#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/robert/lukasik/Broom.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
-          <folding>
-            <element signature="e#160#161#0" expanded="true" />
-            <element signature="e#205#206#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/robert/lukasik/Bucket.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="8" column="51" selection-start-line="8" selection-start-column="51" selection-end-line="8" selection-end-column="51" />
-          <folding>
-            <element signature="e#161#162#0" expanded="true" />
-            <element signature="e#221#222#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/robert/lukasik/Employee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
-          <folding>
-            <element signature="e#778#779#0" expanded="true" />
-            <element signature="e#878#879#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/robert/lukasik/Worker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="32" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
-          <folding>
-            <element signature="e#520#521#0" expanded="true" />
-            <element signature="e#559#560#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/robert/lukasik/Manager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
           <folding />
         </state>
       </provider>
@@ -1059,12 +1014,73 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/robert/lukasik/Tool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="12" column="34" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/robert/lukasik/Broom.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
+          <folding>
+            <element signature="e#160#161#0" expanded="true" />
+            <element signature="e#205#206#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/robert/lukasik/Worker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="23" column="50" selection-start-line="23" selection-start-column="50" selection-end-line="23" selection-end-column="50" />
+          <folding>
+            <element signature="e#519#520#0" expanded="true" />
+            <element signature="e#592#593#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/robert/lukasik/Manager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="18" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
+          <folding>
+            <element signature="e#610#611#0" expanded="true" />
+            <element signature="e#665#666#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/robert/lukasik/Employee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" column="16" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="16" />
+          <folding>
+            <element signature="e#778#779#0" expanded="true" />
+            <element signature="e#870#871#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/robert/lukasik/Animal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="472">
+          <caret line="33" column="5" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/robert/lukasik/App.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        <state relative-caret-position="187">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding>
-            <element signature="e#278#294#0" expanded="true" />
+            <element signature="e#215#223#0" expanded="true" />
+            <element signature="e#354#373#0" expanded="true" />
           </folding>
         </state>
       </provider>
