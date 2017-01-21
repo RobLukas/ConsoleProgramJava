@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="oopl-iii-project-2016:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/oopl_iii_project_2016_jar</output-path>
+    <root id="archive" name="oopl-iii-project-2016.jar">
+      <element id="module-output" name="oopl-iii-project-2016" />
+    </root>
+  </artifact>
+</component>

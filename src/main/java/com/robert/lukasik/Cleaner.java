@@ -6,10 +6,6 @@ package com.robert.lukasik;
 public class Cleaner extends Worker {
     private Tool Tool;
 
-    public Cleaner() throws InterruptedException{
-        Tool = new Broom();
-    }
-
     public Cleaner(String name, double salary, boolean isWorking) throws InterruptedException {
         super(name, salary, isWorking);
         Tool = new Broom();
@@ -18,7 +14,7 @@ public class Cleaner extends Worker {
     @Override
     public void work(Animal animal) {
         if (getIsWorking()) {
-            System.out.print("Cleaner " + getName() + ": ");
+            System.out.print(getName() + ": ");
             Tool.Use();
             clean(animal);
             System.out.println();

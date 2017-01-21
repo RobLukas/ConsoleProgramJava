@@ -18,7 +18,7 @@ public class App
             workers[0] = new Feeder("Mr Feeder", 1000, false);
             workers[1] = new Cleaner("Mr Cleaner", 1000, false);
         }catch (InterruptedException e) {
-            System.out.println("Got interrupted...");
+            e.getStackTrace();
         }
 
         try{
@@ -36,8 +36,7 @@ public class App
                 EmployeeMap.put(workers[i], (i+1));
             }
         }catch (Exception e){
-            System.err.println("IndexOutOfBoundsException");
-            e.printStackTrace(System.out);
+            e.getStackTrace();
         }
 
         System.out.println("You are Manager");
@@ -69,8 +68,7 @@ public class App
                 }
             }
         }catch (Exception e){
-            System.err.println("IndexOutOfBoundsException");
-            e.printStackTrace(System.out);
+            e.getStackTrace();
         }
 
         System.out.println("Great job! Manager gave them raise!");

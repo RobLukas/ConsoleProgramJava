@@ -12,7 +12,7 @@ public class Feeder extends Worker {
     @Override
     public void work(Animal animal) {
         if (getIsWorking()) {
-            System.out.print("Feeder " + getName() + ": ");
+            System.out.print(getName() + ": ");
             Tool.Use();
             feed(animal);
         }

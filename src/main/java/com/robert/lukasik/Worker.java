@@ -21,7 +21,7 @@ public abstract class Worker extends Employee implements IToolUser {
 
     @Override
     public String toString() {
-        return "\nWorker" + super.toString() + "\nID: " + getId();
+        return "\nWorker\n" + super.toString() + "\nID: " + getId();
     }
 
     @Override

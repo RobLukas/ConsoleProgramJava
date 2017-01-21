@@ -2,7 +2,8 @@ package com.robert.lukasik;
 
 /**
  * Created by Robert Łukasik on 17.01.2017.
- */
+ * */
+
 public class Animal {
     private static int nextNumber = 1;
     private int number;
@@ -37,7 +38,7 @@ public class Animal {
         System.out.println("Name of the animal: " + name + number);
         //System.out.println("Number of the animal: " + number);
         System.out.println("Animal has a clean place: " + clear);
-        System.out.println("Animal is hungry: " + hungry);
+        System.out.println("Animal isn't hungry: " + hungry);
         System.out.println();
     }
 
